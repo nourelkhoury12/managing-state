@@ -1,21 +1,13 @@
-import { useState } from 'react'
-import './App.css'
+import Object from "./components/Object"
+import Objectnest from "./components/NestedObject"
 
 function App() {
-  const [ drink, setDrink ] = useState({
-    title: 'Americain',
-    price: 5
-  });
-
-  const handleClick = () => {
-  
-    setDrink({...drink, price: 6});
-  }
+ 
 
   return (
     <div className="App">
-      {drink.price}
-      <button onClick={handleClick} type="button">update price</button>
+      <Object/>
+      <Objectnest />
     </div>
   )
 }
