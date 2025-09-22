@@ -2,6 +2,7 @@ import Object from "./components/Object"
 import Objectnest from "./components/NestedObject"
 import Arrays from "./components/Arrays"
 import ArrayObject from "./components/ArrayObject"
+import Immer from "./components/Immer"
 
 function App() {
  
@@ -12,6 +13,7 @@ function App() {
       <Objectnest />
       <Arrays />
       <ArrayObject/>
+      <Immer/>
     </div>
   )
 }
